@@ -1,0 +1,5411 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "802bf3dd-45f4-457b-8e6e-ea2d44622c13")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CANFD-Transceiver:MCP2562FD-E_SN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MCP2562FD-E_SN"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CanFD-Transceiver-FP-Lib:SOIC127P600X175-8N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005284A.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "8Mbps CAN Flex. Data Transceiver SOIC8 Microchip MCP2562FD-E/SN, CAN Transceiver 2 Mbit/s, 5 Mbit/s, 8 Mbit/s 1-channel ISO 11898-2, ISO 11898-5, 8-Pin SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "579-MCP2562FD-E/SN"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2562FD-E-SN?qs=YlpJWyuQ3POBNBSLSm7%2F1w%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MCP2562FD-E/SN"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MCP2562FD-E_SN_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:0402LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -0.635 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "0402LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:0402LED"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402LED_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.635 2.54) (xy 1.27 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 1.905 1.905) (xy 2.54 1.27) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402LED_1_1"
+				(pin passive line
+					(at -1.905 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:0402R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.905 1.27 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "0402R"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:0402R"
+				(at -2.54 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402R_0_1"
+				(rectangle
+					(start -1.905 0.635)
+					(end -1.8796 -0.635)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 0.635)
+					(end 1.905 0.6096)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 -0.635)
+					(end 1.905 -0.6604)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 0.635)
+					(end 1.9304 -0.635)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402R_1_1"
+				(pin passive line
+					(at -3.175 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.175 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:0603C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -0.635 3.175 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "0603C"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:0603C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603C_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603C_1_1"
+				(pin passive line
+					(at -3.175 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.175 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:0603R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "0603R"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:0603R"
+				(at -0.635 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 1.905 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603R_0_1"
+				(rectangle
+					(start -1.905 0.635)
+					(end -1.8796 -0.635)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 0.635)
+					(end 1.905 0.6096)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 -0.635)
+					(end 1.905 -0.6604)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 0.635)
+					(end 1.9304 -0.635)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603R_1_1"
+				(pin passive line
+					(at -3.175 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.175 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 4.445 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 4.445 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5V_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:ATA6561-GAQW-N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ATA6561-GAQW-N"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ATA6561-GAQW-N_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end -7.62 3.81)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ATA6561-GAQW-N_1_1"
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:FIDUCIAL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FIDUCIAL"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:FIDUCIAL_23"
+				(at 0.254 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FIDUCIAL_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.794)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.7961)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.794)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 4.445 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.921 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.524) (xy 0.635 -1.524)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy 0.381 -1.778)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.032) (xy 0.127 -2.032)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:GND_3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 4.445 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.921 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 4.445 3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.27) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.524) (xy 0.635 -1.524)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy 0.381 -1.778)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.032) (xy 0.127 -2.032)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:HEADER_MALE_6X1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -0.635 10.16 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "HEADER_MALE_6X1"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:HEADER_MALE_6X1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HEADER_MALE_6X1_0_1"
+				(circle
+					(center 0 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -6.35)
+					(end -1.27 8.89)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HEADER_MALE_6X1_1_1"
+				(pin passive line
+					(at 0 7.62 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.991 0.991)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:HOLE_3.2mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HOLE_3.2mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:HOLE_3.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HOLE_3.2mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:SMD-JUMPER-CONNECTED_TRACE_SLODERMASK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD-JUMPER-CONNECTED_TRACE_SLODERMASK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:SMD-JUMPER-CONNECTED_TRACE_SLODERMASK"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD-JUMPER-CONNECTED_TRACE_SLODERMASK_0_1"
+				(arc
+					(start -1.8034 0.5588)
+					(mid -0.2077 1.1365)
+					(end 1.397 0.5842)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD-JUMPER-CONNECTED_TRACE_SLODERMASK_1_1"
+				(pin passive inverted
+					(at -4.064 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 3.556 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:SMD_JUMPER"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD_JUMPER"
+				(at 0.508 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:SMD_JUMPER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD_JUMPER_1_1"
+				(pin passive inverted
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "e-radionica.com schematics:TERMINAL_KF235-5.0-2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TERMINAL_KF235-5.0-2P"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:TERMINAL_KF235-5.0-2P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TERMINAL_KF235-5.0-2P_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.27) (xy 0.254 1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.27) (xy 0.254 -1.27)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.0006)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TERMINAL_KF235-5.0-2P_1_1"
+				(pin input line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "HEADER & OUTPUT TERMINAL"
+		(exclude_from_sim no)
+		(at 240.03 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02453946-b9a5-4d2d-8ce8-d638ac8da3a5")
+	)
+	(text "PWR LED"
+		(exclude_from_sim no)
+		(at 226.06 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cafb888-df7e-44b4-a97e-967313a7cc47")
+	)
+	(text "MCP25 CAN TRANSCEIVER"
+		(exclude_from_sim no)
+		(at 171.45 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d085bdd-d405-4fd3-9729-cf2485d424bf")
+	)
+	(text "TERMINATION RESISTOR"
+		(exclude_from_sim no)
+		(at 161.29 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2abfcce-b569-464c-a883-16a3558a4194")
+	)
+	(junction
+		(at 73.66 30.48)
+		(diameter 0.9144)
+		(color 0 0 0 0)
+		(uuid "6d40555a-0ab8-4214-a5a2-c8ece9f1453f")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 234.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "054e1d84-04e6-4344-a2b1-5668bad6b0f4")
+	)
+	(wire
+		(pts
+			(xy 69.85 43.18) (xy 69.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "06242be5-b8b9-41c8-82ec-bbba76234b37")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fc3083-1224-43e6-b3fb-501d3b4598af")
+	)
+	(polyline
+		(pts
+			(xy 121.92 121.92) (xy 184.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0d699508-3031-49e1-b02f-db153673ae14")
+	)
+	(polyline
+		(pts
+			(xy 121.92 121.92) (xy 121.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "110d4b8e-2ecc-490c-928f-74b398dcb493")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 179.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9506a3-7031-4e96-904d-e2ab0c86ade0")
+	)
+	(wire
+		(pts
+			(xy 184.15 57.15) (xy 184.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c953521-efe8-47be-8fb3-95262a4351a9")
+	)
+	(polyline
+		(pts
+			(xy 205.74 36.83) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "20d5cd69-8a47-419e-aa15-f7e4f2b3b575")
+	)
+	(wire
+		(pts
+			(xy 179.07 58.42) (xy 179.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24208a38-ff9a-4a7e-b74d-fa6e0db290cb")
+	)
+	(wire
+		(pts
+			(xy 135.89 74.93) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26484be5-bc1a-4545-8243-6c080cd16ebd")
+	)
+	(wire
+		(pts
+			(xy 99.06 35.56) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "286f679b-bc2e-4e6d-8ba2-e368c3254342")
+	)
+	(wire
+		(pts
+			(xy 96.52 40.64) (xy 99.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2bb39458-48fb-4a17-94a1-ed0dca73006d")
+	)
+	(wire
+		(pts
+			(xy 231.14 71.12) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "330605ac-ae80-48d5-b897-5268b7bc84d6")
+	)
+	(wire
+		(pts
+			(xy 154.94 135.89) (xy 158.115 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3c534cd5-9f79-43f0-8872-f93ab80836c2")
+	)
+	(polyline
+		(pts
+			(xy 134.62 36.83) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "465a0c36-7cfa-4da5-a43a-4c4ebdfddff0")
+	)
+	(polyline
+		(pts
+			(xy 121.92 139.7) (xy 184.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "48b20c3e-c4da-4a6f-8335-794c66412aa0")
+	)
+	(polyline
+		(pts
+			(xy 189.23 91.44) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "48cd82cd-0921-4cfb-87e4-6615fb909e10")
+	)
+	(wire
+		(pts
+			(xy 107.95 48.26) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4a7b60ad-7aab-40df-874e-dae3a4d3ff10")
+	)
+	(polyline
+		(pts
+			(xy 245.745 140.97) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4baefe1b-c151-47f0-abfa-523a9faf90ba")
+	)
+	(polyline
+		(pts
+			(xy 248.92 109.22) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4ed6c4a8-e401-4a59-bf57-082d0c980182")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4f9af4a2-35d4-45a6-b664-f991e10f1b27")
+	)
+	(wire
+		(pts
+			(xy 231.14 48.26) (xy 234.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "528f27c1-4f4b-445b-b35f-0dc31dc6fffa")
+	)
+	(wire
+		(pts
+			(xy 96.52 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5f4dfb5a-000b-4ff6-9e6d-ae520d850abf")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "69fd112a-992f-49bc-815b-656b87791d55")
+	)
+	(wire
+		(pts
+			(xy 219.456 133.35) (xy 221.615 133.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6aab2005-ca27-4220-89d9-3d5a79e920ff")
+	)
+	(polyline
+		(pts
+			(xy 205.74 36.83) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6de000d5-68bf-4b04-a57a-b366bc7356de")
+	)
+	(wire
+		(pts
+			(xy 80.01 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7414149d-8e0e-445b-9ee3-889d752c5aff")
+	)
+	(wire
+		(pts
+			(xy 227.965 133.35) (xy 230.505 133.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "748aa5b0-4a4b-401f-b830-cbf171a83758")
+	)
+	(wire
+		(pts
+			(xy 231.14 83.82) (xy 234.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7505f23c-6da2-40cf-a726-67eae53ef207")
+	)
+	(wire
+		(pts
+			(xy 229.87 102.87) (xy 232.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "759b5751-c597-4a98-8281-5895a12504d2")
+	)
+	(wire
+		(pts
+			(xy 83.82 30.48) (xy 83.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "78150eca-3bfd-4d54-8773-e439147a2ca2")
+	)
+	(wire
+		(pts
+			(xy 176.53 63.5) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2145b0-50b2-49f4-9517-5978e20072e7")
+	)
+	(wire
+		(pts
+			(xy 231.14 78.74) (xy 234.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7bfd206d-623f-4b97-864d-74744da7c915")
+	)
+	(wire
+		(pts
+			(xy 81.915 30.48) (xy 83.82 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7d77f76f-81e2-4c30-8783-bdc67712f11c")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7f4b572d-6b4c-4ccf-915f-46be51011a10")
+	)
+	(wire
+		(pts
+			(xy 164.465 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "850238c0-8c7c-4d75-a0ae-0cec224dc877")
+	)
+	(wire
+		(pts
+			(xy 231.14 50.8) (xy 234.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8bbbbcef-ed21-4520-b688-23025d7646b2")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "904630d1-7065-47b3-b5f1-9c30a8d96b7c")
+	)
+	(polyline
+		(pts
+			(xy 184.15 139.7) (xy 184.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "90992fab-76dc-4d41-b079-09c8b37269d0")
+	)
+	(wire
+		(pts
+			(xy 81.28 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "96b1ff4b-c205-4954-a412-4ce06dc64d17")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 75.565 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "98940aa8-4f8e-4b36-b551-efbdaf108681")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 184.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0383f96-09ea-4f1c-a20e-b5a8651c9ffb")
+	)
+	(wire
+		(pts
+			(xy 229.87 100.33) (xy 232.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a3be94e6-f53a-4e42-9233-8ac9760b8b22")
+	)
+	(polyline
+		(pts
+			(xy 134.62 91.44) (xy 189.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a54a8660-216f-4cb2-bb67-f5bee18561a3")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 234.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a5670a68-1236-406a-8803-08c7bfe18308")
+	)
+	(wire
+		(pts
+			(xy 144.78 135.89) (xy 147.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a84c41fc-a7e9-44e6-9976-7a7731b7b470")
+	)
+	(wire
+		(pts
+			(xy 69.85 43.18) (xy 81.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b0ca0de5-8fca-4e8d-b540-a7c8e7133e9d")
+	)
+	(wire
+		(pts
+			(xy 73.66 26.67) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b5a305eb-400d-482e-8a61-993e2be073dc")
+	)
+	(polyline
+		(pts
+			(xy 205.74 121.92) (xy 245.745 121.92)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b6b0492f-440f-475a-a2a4-0602400725c3")
+	)
+	(wire
+		(pts
+			(xy 231.14 81.28) (xy 234.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bcfd50a6-be13-41fb-bde5-a66876943cd3")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2cb3e7-8813-40cf-861f-a28a99da8a0f")
+	)
+	(wire
+		(pts
+			(xy 231.14 76.2) (xy 234.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c256a622-7bac-42f0-b798-c899677bb778")
+	)
+	(polyline
+		(pts
+			(xy 245.745 121.92) (xy 245.745 140.97)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c2b9a7a0-59f2-4b12-b3d1-c04b4f32e5cd")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cb466f63-d33c-4e2e-9de4-a9b6c6fb9c48")
+	)
+	(wire
+		(pts
+			(xy 231.14 53.34) (xy 234.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d3e9bda7-b763-4724-b999-7bcd2b74cc66")
+	)
+	(polyline
+		(pts
+			(xy 205.74 121.92) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d5915377-ddfd-4053-818d-368be107364e")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 99.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e293682d-1cd6-4145-a415-4d0775543dbb")
+	)
+	(wire
+		(pts
+			(xy 209.55 129.54) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e47e4b84-3cb7-4b2b-921b-800f324c6f78")
+	)
+	(polyline
+		(pts
+			(xy 134.62 36.83) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e48dd317-2b4b-4cc7-a071-4ee14ca3f28d")
+	)
+	(wire
+		(pts
+			(xy 211.836 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e5c6782b-9ab3-4d59-a534-7f72d42cb88b")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 101.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e852a787-f6c6-419c-b0f6-08f01f984e2b")
+	)
+	(wire
+		(pts
+			(xy 146.05 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef227b49-bde4-4a82-95ab-31a44bd1c2a9")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.26) (xy 107.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ef6e479f-089f-4f9b-a5dd-c61b0971dbd5")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 237.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f17b1dc9-8e21-474c-bf66-e6dc3a7f1017")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f1a895c0-a3a8-4fa0-b5e4-ad62ff79586d")
+	)
+	(polyline
+		(pts
+			(xy 248.92 36.83) (xy 248.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "faaf3e77-be7d-4eac-94eb-f939f610fa16")
+	)
+	(wire
+		(pts
+			(xy 173.99 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb574d2a-2946-43a6-b48a-ad33ad785989")
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 231.14 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ba0083b-37d1-4021-8004-b39775c2788f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.1186 73.5806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 229.87 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18e36327-6ada-41cd-b914-6ba1de0d90fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.9134 102.7906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT0"
+		(shape input)
+		(at 231.14 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "323f4b68-8860-478f-aeaf-5640a1b4bab0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.0905 53.2606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 80.01 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "327eddef-83bc-4525-acf6-3b1e19821849")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.3234 48.1806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 173.99 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "335739e6-4e48-4fd6-b1d3-1deff5ba0b65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.9466 65.9606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT1"
+		(shape input)
+		(at 231.14 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b9ac079-563e-4371-8346-b38b0bf14ea0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.0905 55.8006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 229.87 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4847ca29-22c2-4e64-8fc7-bd1930d89a03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.2158 100.2506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 231.14 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54dea017-296a-47b8-99e4-3bbca0f654cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.3929 76.1206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 231.14 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "571d13ed-dcf2-41dd-b0e8-7006c6f3c892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.9048 83.7406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD"
+		(shape input)
+		(at 146.05 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73dc8949-dda6-42fa-abc5-f91f850f04aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.6658 63.4206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 144.78 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dcfe25d-3bc9-4ab8-9a8c-acf40a16c1e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.8234 135.8106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 231.14 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92556239-211d-4f6f-8b2f-539b9a7e26ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.3324 81.2006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 231.14 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ca92692-11ee-46fa-9214-84b923e7d9b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.4534 78.6606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 99.06 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7134e37-a8cf-44dd-b767-ef17cfa06e0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.0166 43.1006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 146.05 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab69771d-7ec5-4629-b584-e44e00e41595")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.3634 71.0406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape input)
+		(at 231.14 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b54d8c24-d105-4891-bc9c-4757c1983a5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.3 50.7206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 173.99 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfffb2af-9db7-4ee5-88c1-d476c0c828ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.6442 68.5006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 231.14 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc5a5ea3-842e-4af5-be1b-09893d661916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.9048 60.8806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 166.37 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec9a364a-cdf0-4e7d-9264-7589febff59f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.0242 135.8106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLKO"
+		(shape input)
+		(at 231.14 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5c0a6e4-bc26-4c85-9c0d-268a99811858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.3043 48.1806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nCS"
+		(shape input)
+		(at 231.14 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdc49b57-e51f-42bd-b4fa-ffaa7f6372a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.5743 71.0406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 231.14 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe77b21c-14d3-4b23-bc90-ec6258fac062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.3324 58.3406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 99.06 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe8251a7-71ba-49a1-b026-d044c9ab5985")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7142 45.6406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD"
+		(shape input)
+		(at 80.01 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe9faaa3-9701-4a65-8458-1202d2d6bfec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.6258 40.5606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:GND")
+		(at 135.89 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11dc2239-8867-4ba0-90c6-d25a863ea7cd")
+		(property "Reference" "#PWR03"
+			(at 140.335 74.93 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 78.105 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 71.12 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 71.12 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2efe7b3d-9a8c-427c-b02b-c1e66b4fa413")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:5V")
+		(at 73.66 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b0e8f97-57c6-48ee-bb64-f49b34383b63")
+		(property "Reference" "#PWR0107"
+			(at 78.105 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 73.66 22.86 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.105 22.86 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 22.86 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbbe7cf6-4ffc-4a2f-872d-f48d3e7b2f2f")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:0603C")
+		(at 78.74 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25afdb38-7b5f-493c-9535-8474c8a8854a")
+		(property "Reference" "C6"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:0603C"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "336e0b15-0d70-4875-b4a5-d01684cae574")
+		)
+		(pin "2"
+			(uuid "b2d5eafa-408f-4fad-9635-55d458ab33a1")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:0603C")
+		(at 143.51 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2823163c-dcbd-47aa-bb9d-4e76a10247c9")
+		(property "Reference" "C1"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:0603C"
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ef367da-e1f1-4f2f-868a-78a1ad59df8c")
+		)
+		(pin "2"
+			(uuid "98d86477-533a-4e1f-9560-cf32d66fc6b3")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:0402R")
+		(at 224.79 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2955c110-aa7b-492a-8ea7-38466c0bf26d")
+		(property "Reference" "R2"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:0402R"
+			(at 222.25 131.445 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 131.445 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "525d526a-18f2-4eb8-aef2-4a98bf65dcf3")
+		)
+		(pin "2"
+			(uuid "b9c2d983-f7e2-450e-82a1-bfa99b45890f")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:HOLE_3.2mm")
+		(at 207.01 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c797bca-a29a-475c-b968-2927c24961f9")
+		(property "Reference" "H2"
+			(at 209.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOLE_3.2mm"
+			(at 209.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:HOLE_3.2mm"
+			(at 207.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:GND")
+		(at 101.6 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fec046d-4516-4d97-bb25-8eb8265e6150")
+		(property "Reference" "#PWR0110"
+			(at 106.045 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 40.005 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.045 33.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.045 33.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1630d3fb-d995-45d7-a02d-f7fa69f10d65")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:GND")
+		(at 69.85 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3477c0a6-c544-45d0-8fcb-5bf99de6ffea")
+		(property "Reference" "#PWR0108"
+			(at 74.295 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 53.975 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.295 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1630d3fb-d995-45d7-a02d-f7fa69f10d63")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:GND")
+		(at 83.82 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38724805-29b3-49d9-a823-971269293547")
+		(property "Reference" "#PWR0106"
+			(at 88.265 31.75 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 34.925 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 27.94 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 27.94 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1630d3fb-d995-45d7-a02d-f7fa69f10d64")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:HEADER_MALE_6X1")
+		(at 234.95 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eadef2d-7b62-4a9c-a798-ce97dfc95c69")
+		(property "Reference" "K2"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "HEADER_MALE_6X1"
+			(at 234.95 86.36 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:HEADER_MALE_6X1"
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d7e1ef1-badd-4826-9a9e-74f43c9b203f")
+		)
+		(pin "2"
+			(uuid "af4370ee-e057-4b35-adf9-8b5a7fdcd524")
+		)
+		(pin "3"
+			(uuid "ec54bc86-0bbf-42b3-8ebc-0ad170c7bbfd")
+		)
+		(pin "4"
+			(uuid "661aa4b5-b12b-4081-844e-a6bd077311c9")
+		)
+		(pin "5"
+			(uuid "35b1a5fb-f4f8-48d3-971e-3de654685905")
+		)
+		(pin "6"
+			(uuid "05bba558-89e9-4f05-94ef-1ec9f7e36cbe")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:3V3")
+		(at 107.95 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "443fda4b-d0fa-415f-a328-96d7f10338d3")
+		(property "Reference" "#PWR0109"
+			(at 112.395 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.395 33.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 33.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a2d129-4efb-47c5-b10c-f21bf17ad8aa")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "e-radionica.com schematics:GND_3")
+		(lib_id "e-radionica.com schematics:GND")
+		(at 237.49 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4994b28e-018a-4dd2-81ce-60ff0c29a2e7")
+		(property "Reference" "#PWR0118"
+			(at 241.935 134.62 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 137.541 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.935 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b59535a-117c-4257-87e9-79c1907c9ad0")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:0402LED")
+		(at 232.41 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b3e46fd-fc9f-4ef4-af65-6df0e82b9f50")
+		(property "Reference" "D1"
+			(at 231.775 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "purple"
+			(at 233.045 135.255 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:0402LED"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c798168-aa17-4a79-8ebd-bc0a09119511")
+		)
+		(pin "2"
+			(uuid "7e3dcc37-e7f5-41f0-adf0-fa53029f4a43")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:SMD_JUMPER")
+		(at 151.13 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "590acff8-9132-4e9c-9779-b811aeaec3e0")
+		(property "Reference" "JP1"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_JUMPER"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:SMD_JUMPER"
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "209c215d-baaf-4ba8-8776-08622a34c683")
+		)
+		(pin "2"
+			(uuid "37c4a3a3-7d7d-4941-aec7-2adc48da023f")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CANFD-Transceiver:MCP2562FD-E_SN")
+		(at 146.05 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6faa1e52-db52-472a-8729-422023078f30")
+		(property "Reference" "IC1"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP2562FD-E_SN"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CanFD-Transceiver-FP-Lib:SOIC127P600X175-8N"
+			(at 170.18 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005284A.pdf"
+			(at 170.18 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "8Mbps CAN Flex. Data Transceiver SOIC8 Microchip MCP2562FD-E/SN, CAN Transceiver 2 Mbit/s, 5 Mbit/s, 8 Mbit/s 1-channel ISO 11898-2, ISO 11898-5, 8-Pin SOIC"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 170.18 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP2562FD-E/SN"
+			(at 170.18 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2562FD-E-SN?qs=YlpJWyuQ3POBNBSLSm7%2F1w%3D%3D"
+			(at 170.18 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 170.18 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP2562FD-E/SN"
+			(at 170.18 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c762739d-53f2-4d2c-ab22-56a940aee38d")
+		)
+		(pin "8"
+			(uuid "303e270a-2b53-4f45-bbbe-ea1a97a37f1e")
+		)
+		(pin "4"
+			(uuid "ee5866ea-d3f7-45ff-8b8a-bdfb8fa7f36b")
+		)
+		(pin "1"
+			(uuid "c64f85fe-d195-477f-b7b7-a3df6b061b25")
+		)
+		(pin "2"
+			(uuid "44732913-bedb-4b30-bf62-b1eae11e4dbd")
+		)
+		(pin "5"
+			(uuid "2f96d2a8-ac95-4607-8ace-77f4f89bc1f1")
+		)
+		(pin "6"
+			(uuid "971a102f-ac21-4978-9cc5-d1aa8d398fb3")
+		)
+		(pin "3"
+			(uuid "1a3224e3-1d23-414b-8fe5-5b1a5bc46b27")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:SMD-JUMPER-CONNECTED_TRACE_SLODERMASK")
+		(at 215.9 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97781414-c4f1-4a8d-9a2f-562b6db130d2")
+		(property "Reference" "JP2"
+			(at 215.646 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD-JUMPER-CONNECTED_TRACE_SLODERMASK"
+			(at 215.646 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:SMD-JUMPER-CONNECTED_TRACE_SLODERMASK"
+			(at 215.9 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2883e2a3-b3ad-47ee-bfe1-c67791a2e805")
+		)
+		(pin "2"
+			(uuid "67c5ff1b-dd07-42e2-86ca-9c0a7440475d")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:TERMINAL_KF235-5.0-2P")
+		(at 236.22 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaaef696-7f8c-43cb-a464-b9f691ddb2c2")
+		(property "Reference" "K3"
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TERMINAL_KF235-5.0-2P"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:TERMINAL_KF235-5.0-2P"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c04fb159-b071-4317-8132-76c48e70c8c4")
+		)
+		(pin "2"
+			(uuid "79cff8a7-3e26-4fcb-827c-38b72279be64")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:0603R")
+		(at 161.29 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bef07e3b-910e-4a4f-af6f-c38f1a0f5133")
+		(property "Reference" "R1"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:0603R"
+			(at 160.655 133.985 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.655 133.985 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "384d7930-a621-4478-b6fa-f410154f5217")
+		)
+		(pin "2"
+			(uuid "80c3067b-dab8-4f70-bad5-e6acf61d6f3f")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:FIDUCIAL")
+		(at 174.625 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a227a4-bb4d-4d14-b496-d6fe070e8e20")
+		(property "Reference" "FD1"
+			(at 178.435 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FIDUCIAL"
+			(at 178.435 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:FIDUCIAL_23"
+			(at 174.879 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.625 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "FD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:3V3")
+		(at 209.55 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cba19993-90d1-4ef9-9a35-dc3969cf49c9")
+		(property "Reference" "#PWR0119"
+			(at 213.995 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.995 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.995 125.73 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a2d129-4efb-47c5-b10c-f21bf17ad8ab")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:5V")
+		(at 137.16 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc6d975-d132-4549-b618-34849892b7c1")
+		(property "Reference" "#PWR04"
+			(at 141.605 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 137.16 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ee20db2-ead4-4a97-8d11-115e6bdaeb11")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:ATA6561-GAQW-N")
+		(at 88.9 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1d9ce1d-1756-475d-bfbc-0af4727b5b4c")
+		(property "Reference" "U3"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATA6561-GAQW-N"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:SOIC−8"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1375fd2-8d0d-4bf9-a341-75bd9130e5de")
+		)
+		(pin "2"
+			(uuid "bd326d3c-8886-47ee-8937-429b5630a837")
+		)
+		(pin "3"
+			(uuid "22419d23-c0b1-4958-9f02-00dad539c497")
+		)
+		(pin "4"
+			(uuid "e8e48a57-b9fa-4229-b3b8-81e924087654")
+		)
+		(pin "5"
+			(uuid "8f4494d9-20e8-48d9-a4d9-baecdcb5b0cd")
+		)
+		(pin "6"
+			(uuid "e8a6a774-ece2-413b-a858-b5e2f203e517")
+		)
+		(pin "7"
+			(uuid "3542d940-b242-4213-a0fa-c73f333fcb2e")
+		)
+		(pin "8"
+			(uuid "dc285d31-ef45-4116-990d-0b6af783f3cf")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:3V3")
+		(at 184.15 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4547536-f2bf-4d20-8b39-6b76cd9fc409")
+		(property "Reference" "#PWR01"
+			(at 188.595 57.15 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 184.15 53.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.595 53.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 53.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3156b229-9c12-4a61-a045-0fd7417259e7")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:HOLE_3.2mm")
+		(at 189.23 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d534482b-4eb5-4c46-b756-afb0e8020705")
+		(property "Reference" "H1"
+			(at 191.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HOLE_3.2mm"
+			(at 191.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:HOLE_3.2mm"
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:HEADER_MALE_6X1")
+		(at 234.95 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd0477cb-b114-4b90-99d1-c6c27aee2f2f")
+		(property "Reference" "K1"
+			(at 234.95 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "HEADER_MALE_6X1"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "e-radionica.com footprinti:HEADER_MALE_6X1"
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d7e1ef1-badd-4826-9a9e-74f43c9b203e")
+		)
+		(pin "2"
+			(uuid "af4370ee-e057-4b35-adf9-8b5a7fdcd523")
+		)
+		(pin "3"
+			(uuid "ec54bc86-0bbf-42b3-8ebc-0ad170c7bbfc")
+		)
+		(pin "4"
+			(uuid "661aa4b5-b12b-4081-844e-a6bd077311c8")
+		)
+		(pin "5"
+			(uuid "35b1a5fb-f4f8-48d3-971e-3de654685904")
+		)
+		(pin "6"
+			(uuid "05bba558-89e9-4f05-94ef-1ec9f7e36cbd")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "e-radionica.com schematics:GND")
+		(at 179.07 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e94419a9-f022-482a-acf4-2ad7b1573339")
+		(property "Reference" "#PWR02"
+			(at 183.515 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 62.865 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.515 55.88 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.515 55.88 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "984d9c0c-62ce-4281-bc55-cb1bf325e2dd")
+		)
+		(instances
+			(project "CANFD-Transceiver-Breakout-Board-MCP2562FD"
+				(path "/802bf3dd-45f4-457b-8e6e-ea2d44622c13"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
