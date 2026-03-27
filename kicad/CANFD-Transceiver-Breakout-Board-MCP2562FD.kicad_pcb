@@ -38,10 +38,10 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_5555555f_f755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "assembly/")
 		)
 	)
 	(net 0 "")
@@ -4103,7 +4103,7 @@
 		)
 	)
 	(gr_text "MCP2562FD CANFD XCVR BOARD"
-		(at 122.55 99.8 0)
+		(at 123.2154 99.6442 0)
 		(layer "F.SilkS" knockout)
 		(uuid "47824270-636b-45e6-a51f-7e307ed04d3a")
 		(effects
@@ -4124,6 +4124,42 @@
 				(thickness 0.0875)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "CAN HIGH"
+		(at 144.907 87.4776 0)
+		(layer "F.SilkS" knockout)
+		(uuid "ffdfabe8-a0a3-47a6-baca-4653e0edcd85")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.0875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CAN LOW"
+		(at 145.2626 98.4758 0)
+		(layer "F.SilkS" knockout)
+		(uuid "e08a05f3-cd3d-47fd-a481-07bc247f4cef")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.0875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "03/2026"
+		(at 127.9906 98.7552 0)
+		(layer "B.SilkS" knockout)
+		(uuid "d235a2ff-5087-412a-82af-a085b50ac214")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.0875)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Atmadyne"
@@ -4212,7 +4248,7 @@
 		(uuid "34fb9fd3-757b-4e82-8893-ac98c84c86dd")
 	)
 	(via
-		(at 146.625 99.5)
+		(at 148.971 96.0882)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4230,7 +4266,7 @@
 		(uuid "5bc78522-a9fd-4c88-b933-0455f972c042")
 	)
 	(via
-		(at 145.6 87.775)
+		(at 144.8816 89.0524)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4293,7 +4329,7 @@
 		(uuid "c9b4f42f-68c1-4c4e-9127-2b298891f776")
 	)
 	(via
-		(at 149.725 96.125)
+		(at 148.9456 92.4052)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -5171,8 +5207,8 @@
 				(xy 109.257708 92.033399) (xy 109.257711 92.033399) (xy 109.422442 91.979874) (xy 109.422442 91.979873)
 				(xy 109.422445 91.979873) (xy 109.576788 91.901232) (xy 109.716928 91.799414) (xy 109.839414 91.676928)
 				(xy 109.937747 91.541583) (xy 109.986038 91.511991) (xy 110.04111 91.525213) (xy 110.04994 91.532754)
-				(xy 111.580186 93.063) (xy 111.694314 93.128892) (xy 111.821605 93.162999) (xy 111.821606 93.163)
-				(xy 111.821608 93.163) (xy 111.953393 93.163) (xy 112.666345 93.163) (xy 112.671577 93.165167) (xy 112.677068 93.163781)
+				(xy 111.487 92.969814) (xy 111.580186 93.063) (xy 111.694314 93.128892) (xy 111.821605 93.162999)
+				(xy 111.821606 93.163) (xy 111.821608 93.163) (xy 112.666345 93.163) (xy 112.671577 93.165167) (xy 112.677068 93.163781)
 				(xy 112.690047 93.172817) (xy 112.718671 93.184674) (xy 112.725701 93.192809) (xy 112.729429 93.197817)
 				(xy 112.729788 93.198778) (xy 112.795196 93.286152) (xy 112.795313 93.286309) (xy 112.802207 93.313618)
 				(xy 112.809204 93.341031) (xy 112.80915 93.341121) (xy 112.809176 93.341223) (xy 112.794767 93.365362)
