@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "symbol-library")(type "KiCad")(uri "${KIPRJMOD}/components/symbols/symbol-library.kicad_sym")(options "")(descr ""))
   (lib (name "CANFD-Transceiver")(type "KiCad")(uri "${KIPRJMOD}/components/symbols/CANFD-Transceiver.kicad_sym")(options "")(descr ""))
 )
