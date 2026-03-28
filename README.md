@@ -4,7 +4,7 @@ This board lays out the Microchip Technology MCP2562FD CAN-FD Transceiver IC ont
 
 Exact Reference Manufacturer Product Number: MCP2562FD-E/SN  
 
-Final Boards 3D Renders  
+## Final Boards 3D Renders ##  
 <img width="1690" height="563" alt="CANFD Breakout with Spring Terminals Top Side" src="https://github.com/user-attachments/assets/b5a629c6-8343-47f6-8b70-f32cb11c5855" />  
 <img width="1544" height="545" alt="CANFD Breakout with Spring Terminals Bottom Side" src="https://github.com/user-attachments/assets/d4dd4c60-a369-49ff-ac45-c7417823ab41" />
 
