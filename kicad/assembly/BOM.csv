@@ -1,0 +1,9 @@
+Reference,Qty,Value,Footprint,Datasheet,Manufacturer_Name,Manufacturer_Part_Number,LCSC_Part_Number
+"C1,C3",2,100n,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,Samsung Electro-Mechanics,CL10E104KC8VPNC,C16194197
+C2,1,4.7n,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,~,KEMET,C0402C472J5RACTU,C2167398
+"D1,D2",2,LED,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,LITEON,LTST-C191KRKT,C125099
+D3,1,CDSOT23-T24CAN,CanFD-Transceiver-FP-Lib:SOT95P230X117-3N,https://www.bourns.com/docs/Product-Datasheets/CDSOT23-T24CAN.pdf,Bourns,CDSOT23-T24CAN,
+J2,1,1862042,CanFD-Transceiver-FP-Lib:1862042,https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-sptaf-1-2-35-el-1862042?type=pdf,Phoenix Contact,1862042,
+"R1,R2",2,60R,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,~,YAGEO,RC0402FR-0762RL,C274896
+"R3,R4",2,2k2,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,YAGEO,RC0603FR-072K2L,C114662
+U1,1,MCP2562FD-E_SN,CanFD-Transceiver-FP-Lib:SOIC127P600X175-8N,https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005284A.pdf,Microchip,MCP2562FD-E/SN,

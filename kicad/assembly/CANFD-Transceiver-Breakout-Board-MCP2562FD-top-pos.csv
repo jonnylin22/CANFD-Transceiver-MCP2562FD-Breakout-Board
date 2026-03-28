@@ -1,0 +1,14 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,113.4,-91.8,90,top
+C2,4.7n,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,128.7,-92.5,-90,top
+C3,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,121.2088,-96.647,90,top
+D1,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,117.9208,-98,180,top
+D2,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,122.66875,-87.3,180,top
+D3,CDSOT23-T24CAN,SOT95P230X117-3N,135.6,-92.5,0,top
+J2,1862042,1862042,141.9,-94.1,90,top
+K1,HEADER_MALE_6X1,PinHeader_1x06_P2.54mm_Horizontal,109,-98.58,180,top
+R1,60R,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,124,-90.7,-90,top
+R2,60R,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,124,-93.4,-90,top
+R3,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,114.3,-98,0,top
+R4,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,119.1,-87.3,0,top
+U1,MCP2562FD-E_SN,SOIC127P600X175-8N,118.5,-92,0,top
